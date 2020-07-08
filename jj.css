@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  max-width: 100%;
+  height: 150px;
+  background-color: rgba(217, 31, 6, 0.8);
+  font-size: 22pt;
+  position: relative;
+}
+
+#navbar .logo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 100px;
+}
+
+#navbar .nav_item {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#navbar .nav_item .nav_btn {
+  margin-left: 80px;
+  list-style: none;
+}
+/*# sourceMappingURL=jj.css.map */
