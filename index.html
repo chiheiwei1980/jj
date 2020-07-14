@@ -3,32 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="jj.js"></script>
-    <link rel="stylesheet" href="jj.css">
+    
+    <title>久洲機械實業股份有限公司</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./jj.css">
 
 </head>
 <body>
-    <div id="navbar">
-        <div class="logo">
-
+    <!-- 頁首置頂功能選單 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="https://www.traffic.taichung.gov.tw/images/logo.jpg" style="height: 100px;" alt="">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">首頁</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">關於久洲</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">產品介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">聯絡資訊</a>
+                  </li>
+              </ul>
+          </div>
+        </div>  
+      </nav>
+    <!-- Swiper 首頁輪播程式區-->
+    <!-- 採背景圖片置入方式 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="bg-img one" style="background-image: url(./img/try101.jpg);"></div>
         </div>
-        <ul class="nav_item">
-            <li class="nav_btn">首頁</li>
-            <li class="nav_btn">關於久洲</li>
-            <li class="nav_btn">產品介紹</li>
-            <li class="nav_btn">聯絡資訊</li>
-        </ul>
+        <div class="swiper-slide">
+            <div class="bg-img tow" style="background-image: url(./img/try102.jpg);"></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url(./img/try201.jpg);"></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url(./img/try202.jpg);"></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url(./img/try203.jpg);"></div>
+        </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 
+    <div class="footer">
+        <p>© 2020. Jiou jou All Rights Reserved.</p>
+    </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- swiper的CDN -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./parallax.min.js"></script>
 
+    <script src="jj.js"></script>
 
-
-
-
-
-    <!-- 載入bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </body>
 </html>
